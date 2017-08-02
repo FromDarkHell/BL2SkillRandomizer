@@ -42,9 +42,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.kronk = new System.Windows.Forms.TabPage();
             this.KriegButton = new System.Windows.Forms.Button();
-            this.DialogSaver = new System.Windows.Forms.SaveFileDialog();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button5 = new System.Windows.Forms.Button();
+            this.DialogSaver = new System.Windows.Forms.SaveFileDialog();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.Sal.SuspendLayout();
             this.Axton.SuspendLayout();
@@ -195,23 +196,34 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Size = new System.Drawing.Size(734, 435);
             this.tabPage1.TabIndex = 6;
-            this.tabPage1.Text = "Misc. / Settings";
+            this.tabPage1.Text = "Miscellaneous";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(-4, 0);
+            this.button5.Location = new System.Drawing.Point(0, 0);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(742, 86);
+            this.button5.Size = new System.Drawing.Size(230, 86);
             this.button5.TabIndex = 0;
             this.button5.Text = "Randomize All Characters";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(501, 0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(230, 86);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "Generate Random Character and Skill Tree";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Randomizer
             // 
@@ -253,6 +265,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
