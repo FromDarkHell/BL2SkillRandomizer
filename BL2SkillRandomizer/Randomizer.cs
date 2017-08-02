@@ -3000,7 +3000,7 @@ namespace BL2SkillRandomizer
             if (DialogSaver.ShowDialog() == DialogResult.OK)
             {
                 int rChar = r.Next(0, 7);
-                if (rChar == 0) { Zer0Random(); MessageBox.Show("Your character generated was Zer0!"); } else if (rChar == 1) { MayaRandom(); MessageBox.Show("Your character generated was Maya!"); } else if (rChar == 2) { AxtonRandom(); MessageBox.Show("Your character generated was Axton!"); } else if (rChar == 3) { SalRandom(); MessageBox.Show("Your character generated was Salvador!"); } else if (rChar == 4) { KriegRandom(); MessageBox.Show("Your character generated was Krieg!"); } else if (rChar == 5) { GaigeRandom(); MessageBox.Show("Your character generated was Gaige!"); }
+                if (rChar == 0) { Zer0Random(); MessageBox.Show("Your character generated was Zer0!"); } else if (rChar == 1) { MayaRandom(); MessageBox.Show("Your character generated was Maya!"); } else if (rChar == 2) { AxtonRandom(); MessageBox.Show("Your character generated was Axton!"); } else if (rChar == 3) { SalRandom(); MessageBox.Show("Your character generated was Salvador!"); } else if (rChar == 4) { KriegRandom(); MessageBox.Show("Your character generated was Krieg!"); } else if (rChar == 5) { GaigeRandom(); MessageBox.Show("Your character generated was Gaige!"); } // Thanks to Arcticfreezi#9010 on Discord for this Feature ^
             }
         }
     }
