@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Borderlands_2_Icon3.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Random.Org, Version=0.1.4759.19552, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Random.Org.0.1.4759.19552\lib\net40\Random.Org.dll</HintPath>
@@ -81,6 +84,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Borderlands_2_Icon3.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

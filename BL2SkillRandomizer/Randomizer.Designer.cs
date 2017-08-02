@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Randomizer));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Sal = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
@@ -42,6 +43,8 @@
             this.kronk = new System.Windows.Forms.TabPage();
             this.KriegButton = new System.Windows.Forms.Button();
             this.DialogSaver = new System.Windows.Forms.SaveFileDialog();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.Sal.SuspendLayout();
             this.Axton.SuspendLayout();
@@ -49,6 +52,7 @@
             this.Maya.SuspendLayout();
             this.Gaige.SuspendLayout();
             this.kronk.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -59,6 +63,7 @@
             this.tabControl1.Controls.Add(this.Maya);
             this.tabControl1.Controls.Add(this.Gaige);
             this.tabControl1.Controls.Add(this.kronk);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Location = new System.Drawing.Point(2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -188,14 +193,35 @@
             this.KriegButton.UseVisualStyleBackColor = true;
             this.KriegButton.Click += new System.EventHandler(this.KriegButton_Click);
             // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.button5);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Size = new System.Drawing.Size(734, 435);
+            this.tabPage1.TabIndex = 6;
+            this.tabPage1.Text = "Misc. / Settings";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(-4, 0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(742, 86);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "Randomize All Characters";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Randomizer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 459);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Randomizer";
-            this.Text = "Borderlands 2 Skill Randomizer | v1.1 |";
+            this.Text = "Borderlands 2 Skill Randomizer | v1.2 |";
             this.Load += new System.EventHandler(this.Randomizer_Load);
             this.tabControl1.ResumeLayout(false);
             this.Sal.ResumeLayout(false);
@@ -204,6 +230,7 @@
             this.Maya.ResumeLayout(false);
             this.Gaige.ResumeLayout(false);
             this.kronk.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -224,6 +251,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
